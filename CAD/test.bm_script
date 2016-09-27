@@ -1,0 +1,7 @@
+<Map>
+<Format><trip tag><reference><angle><todo></Format>
+<Settings Speed=120, DriveHeading=0, StartSignal=HORN&LIGHT,  StopSignal=HORN, ReturnFeedBack=TRUE, LogData=TRUE, StopIfNotConnected=TRUE, EnableWatchDog=TRUE>&Log_Title=*DateTime+*RandomString</Settings>
+
+NN,-5,0,SC30_F40,ST
+
+</Map>

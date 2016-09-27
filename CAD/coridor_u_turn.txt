@@ -1,0 +1,1 @@
+sh,0,iq,h,iq,fd,300,iq,sh,30,iq,fd,10,iq,sh,-5,iq,fd,15,iq,sh,0,iq,fd,350,iq,sh,50,iq,fd,80,iq,sh,-5,iq,fd,20,iq,sh,0,iq,fd,300

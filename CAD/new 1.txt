@@ -1,0 +1,34 @@
+self.mapProfile = "Ackerman Steering"
+        self.numberOfMaps = 1
+        self.dimensions = (2000, 2000)
+        self.unit = "Millimeters"
+        self.scene_mouse_x = 0
+        self.scene_mouse_y = 0
+        self.scene_object_x = 0
+        self.scene_object_y = 0
+        self.route = []
+        self.drawing_polygon_status = False
+        self.draw_polygon_buffer = {}
+        self.mainMapRect = None
+        self.previous_zoom_factor = None
+        self.bluetooth_comPort = "COM15"
+        self.bluetooth_baudrate = 9600
+        self.bluetooth_connected = False
+        self.bluetooth_connectedDevices = [0]
+        self.deleted_items = []
+        self.current_selected_item = None
+        self.previous_selected_item = None
+        self.current_selected_item_stroke_properties = None
+        self.bluetooth_message_file_name = None
+
+		
+Train line Booking fee No 2227462809
+Status = 9286BD51 Mifare 1K
+
+Arduino Pin mappings
+SHR-Q1 == Hbridge-inA
+SHR-Q2 == Hbridge-inB
+OUT-B;A2 == Line Sensor-03
+OUT-D;A0 == Line Sensor-02
+OUT-G;9 == Line Sensor-04
+IN-Z;4 == Pull 2 Start

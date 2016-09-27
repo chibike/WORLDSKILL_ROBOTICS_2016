@@ -1,0 +1,1 @@
+h,iq,k,iq,sh,30,iq,fd,5,iq,sh,0,iq,fd,50,iq,sh,-30,iq,fd,10,iq,sh,0,iq,fd,15,iq,h,iq,k

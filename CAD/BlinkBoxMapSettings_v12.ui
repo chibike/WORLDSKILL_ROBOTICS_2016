@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapSettings</class>
+ <widget class="QWidget" name="MapSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Map Settings</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>731</width>
+     <height>342</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="nameEntry">
+        <property name="minimumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>581</width>
+          <height>27</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="profileLabel">
+        <property name="text">
+         <string>Profile:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QSpinBox" name="widthSpinbox">
+        <property name="minimumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximum">
+         <number>20000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QSpinBox" name="heightSpinbox">
+        <property name="minimumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximum">
+         <number>20000</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QSpinBox" name="numberOfMapsSpinbox">
+        <property name="minimumSize">
+         <size>
+          <width>91</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>91</width>
+          <height>27</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="widthLabel">
+        <property name="text">
+         <string>Width:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="numberOfMapsLabel">
+        <property name="text">
+         <string>Number Of Maps:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="heightLabel">
+        <property name="text">
+         <string>Height:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QComboBox" name="unitCombo">
+        <property name="minimumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>Inches</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Millimeters</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Centimeters</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Meters</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kilometers</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="unitLabel">
+        <property name="text">
+         <string>Unit:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="profileComboBox">
+        <property name="minimumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>261</width>
+          <height>27</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>Two Wheels Steering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Skid Steering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tank Steering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ackerman Steering</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Four Wheels Steering</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="nameLabel">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>Name:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="selectMapColorButton">
+      <property name="minimumSize">
+       <size>
+        <width>729</width>
+        <height>34</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>729</width>
+        <height>34</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Select Map Color</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="okButton">
+        <property name="minimumSize">
+         <size>
+          <width>181</width>
+          <height>34</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>181</width>
+          <height>34</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>Save Settings and Open</string>
+        </property>
+        <property name="statusTip">
+         <string>Save Settings and Open</string>
+        </property>
+        <property name="whatsThis">
+         <string>Save Settings and Open</string>
+        </property>
+        <property name="text">
+         <string>Ok</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="templateButton">
+        <property name="minimumSize">
+         <size>
+          <width>181</width>
+          <height>34</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>181</width>
+          <height>34</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>Access Dozens Of Developing Template</string>
+        </property>
+        <property name="statusTip">
+         <string>Access Dozens Of Developing Template</string>
+        </property>
+        <property name="whatsThis">
+         <string>Access Dozens Of Developing Template</string>
+        </property>
+        <property name="text">
+         <string>Template</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
